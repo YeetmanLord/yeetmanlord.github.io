@@ -1,0 +1,111 @@
+/*!
+  Theme: Dark theme
+  Description: Modified version of the default theme to match my site's color scheme.
+  Author: (c) Ivan Sagalaev <maniac@softwaremaniacs.org>, Modified by YeetManLord
+  Maintainer: @highlightjs/core-team
+  Website: https://highlightjs.org/
+  License: see project LICENSE
+  Touched: 2022
+*/
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    max-height: 400px;
+}
+
+code.hljs {
+    padding: 3px 5px;
+}
+
+.hljs {
+    background: #2d2727;
+    color: #f3f3f3;
+    border-radius: 4.5%;
+}
+
+.hljs-comment {
+    color: #c4c4c4;
+}
+
+.hljs-punctuation,
+.hljs-tag {
+    color: rgba(14, 211, 255, 0.863);
+}
+
+.hljs-tag .hljs-attr,
+.hljs-tag .hljs-name {
+    color: rgb(190, 190, 190);
+}
+
+.hljs-attribute,
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-name,
+.hljs-selector-tag {
+    font-weight: 900;
+    color: #ff0000;
+}
+
+.hljs-deletion,
+.hljs-number,
+.hljs-quote,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-template-tag,
+.hljs-type {
+    color: #16a2be
+}
+
+.hljs-section,
+.hljs-title {
+    color: #16a2be;
+    font-weight: 700
+}
+
+.hljs-link,
+.hljs-regexp,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-symbol,
+.hljs-template-variable,
+.hljs-variable {
+    color: rgb(141, 235, 238)
+}
+
+
+.hljs-operator {
+    color: #c6c6c6
+}
+
+.hljs-literal {
+    color: #62c541
+}
+
+.hljs-addition,
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code {
+    color: #62c300
+}
+
+.hljs-meta {
+    color: #1a95d3
+}
+
+.hljs-string {
+    color: rgb(178, 202, 39);
+}
+
+.hljs-meta .hljs-string {
+    color: rgb(178, 202, 39);
+}
+
+.hljs-emphasis {
+    font-style: italic
+}
+
+.hljs-strong {
+    font-weight: 700
+}

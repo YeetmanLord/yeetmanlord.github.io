@@ -1,0 +1,187 @@
+body {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    margin-left: 320px;
+    color: rgb(230, 243, 254);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#nav-root {
+    background-color: #282727;
+    color: rgb(224, 203, 203);
+    text-align: left;
+    height: 100vh;
+    width: 300px;
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 0px;
+    top: 0px;
+    left: 0px;
+}
+
+#nav-root > ul {
+    margin-left: 2%;
+    padding: 0;
+    font-size: 1.3rem;
+    position: relative;
+    list-style: none;
+}
+
+#nav-root > ul li {
+    margin: 10px;
+    padding: 0;
+    margin-bottom: 5%;
+    color: rgb(234, 219, 178);
+}
+
+#nav-root > ul > li ul {
+    list-style-type: none;
+    padding-left: 5%;
+}
+
+.nav-link {
+    color: rgb(184, 221, 253);
+}
+
+.nav-link:visited {
+    color: rgb(184, 221, 253);
+}
+
+.nav-link:hover {
+    color: rgb(206, 231, 255);
+}
+
+.nav-link.active {
+    color: rgb(101, 224, 243);
+}
+
+.nav-link.active:hover {
+    color: rgb(125, 234, 229);
+}
+
+.project-link {
+    color: rgb(184, 221, 253);
+    text-decoration: none;
+}
+
+.project-link:hover {
+    color: rgb(112, 172, 228);
+}
+
+a {
+    text-decoration: none;
+}
+
+#api-example-root {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0;
+    color: rgb(230, 243, 254);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+
+.code-description {
+    width: 98%;
+    text-justify: distribute-all-lines;
+    text-align: justify;
+    position: relative;
+    text-overflow: wrap;
+}
+
+.code {
+    width: 100%;
+}
+
+.api-example {
+    margin-top: 0.25em;
+    padding: 0.75em;
+    width: 60%;
+    margin-left: 15%;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #555;
+}
+
+
+.tag {
+    border-radius: 50px;
+    margin-right: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 20px;
+    max-height: 20px;
+    min-height: 20px;
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+    font-weight: 100;
+}
+
+.tags {
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.api-example > h3 {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 2%;
+    margin-bottom: 1%;
+    margin-top: 0;
+    color: lightblue;
+}
+
+.tag-small {
+    border-radius: 50px;
+    margin-left: 2%;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    font-size: x-small;
+    font-weight: 100;
+    transform: translateY(-4px);
+}
+
+.tag-box {
+    width: 250px;
+    height: 20px;
+    overflow-x: hidden;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.tag-select {
+    background-color: white;
+    z-index: 200;
+    position: absolute;
+    top: 40px;
+    color: #000;
+}
+
+.select-tag {
+    padding: 3px;
+}
+
+.select-tag.active {
+    background-color: rgb(102, 102, 255);
+    color: #fff;
+}
+
+.search-bar {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 3px;
+    width: 100%;
+    display: inline-flex;
+    gap: 25px;
+}

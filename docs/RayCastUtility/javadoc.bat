@@ -1,0 +1,1 @@
+cmd.exe /X /C "C:\Users\maxiw\.gradle\jdks\jdk-17.0.1+12\bin\javadoc.exe @options @packages @argfile"
