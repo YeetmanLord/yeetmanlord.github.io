@@ -50,25 +50,25 @@ let links = [
                 id: 0, // React requires a unique key for each element in a list
                 hasSubLinks: false,
                 text: "ZetaCore",
-                link: "\/docs/ZetaCore.html"
+                link: "\/docs/ZetaCore"
             },
             {
                 id: 1, // React requires a unique key for each element in a list
                 hasSubLinks: false,
                 text: "BedwarsZeta",
-                link: "\/docs/BedwarsZeta.html"
+                link: "\/docs/BedwarsZeta"
             },
             {
                 id: 2, // React requires a unique key for each element in a list
                 hasSubLinks: false,
                 text: "ReflectionAPI",
-                link: "\/docs/ReflectionAPI.html"
+                link: "\/docs/ReflectionAPI"
             },
             {
                 id: 3, // React requires a unique key for each element in a list
                 hasSubLinks: false,
                 text: "RayCastUtility",
-                link: "\/docs/RayCastUtility.html"
+                link: "\/docs/RayCastUtility"
             }
         ]
     },
@@ -81,7 +81,7 @@ let links = [
                 id: 0, // React requires a unique key for each element in a list
                 hasSubLinks: false,
                 text: "API examples",
-                link: "\/resources/api-examples.html"
+                link: "\/resources/ApiExamples"
             }
         ]
     }
@@ -94,7 +94,12 @@ const lookup = {
     "/docs/BedwarsZeta.html": "BedwarsZeta",
     "/docs/ReflectionAPI.html": "ReflectionAPI",
     "/docs/RayCastUtility.html": "RayCastUtility",
-    "/resources/api-examples.html": "API examples"
+    "/resources/ApiExamples.html": "API examples",
+    "/docs/ZetaCore": "ZetaCore",
+    "/docs/BedwarsZeta": "BedwarsZeta",
+    "/docs/ReflectionAPI": "ReflectionAPI",
+    "/docs/RayCastUtility": "RayCastUtility",
+    "/resources/ApiExamples": "API examples"
 }
 
 function Nav({ currentLink }) {
