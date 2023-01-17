@@ -7,12 +7,13 @@ let tags = {
     "ZetaCore": ["gold", "white"],
     "Initialization": ["rgba(26, 196, 196, 0.66)", "white"],
     "Maven": ["rgb(9, 25, 154)", "white"],
-    "GUIs": ["rgb(123, 60, 154)", "white"]
+    "GUIs": ["rgb(123, 60, 154)", "white"],
+    "Utility": ["rgb(154, 60, 60)", "white"],
 }
 
 let subCategories = {
-    "ReflectionAPI": ["NMSObjectReflection", "Initialization"],
-    "ZetaCore": ["Initialization", "GUIs"],
+    "ReflectionAPI": ["NMSObjectReflection", "Initialization", "Utility"],
+    "ZetaCore": ["Initialization", "GUIs", "Utility"],
     "": []
 }
 
@@ -74,6 +75,14 @@ let apiExamples = [
         category: "ZetaCore",
         subCategory: "GUIs",
         tags: ["ZetaCore", "GUIs"],
+    },
+    {
+        name: "Using ReflectionAPI's mappings system",
+        description: "This is an example of how you would define your own mappings and then use them in code. This example uses the mapping `MY_MAPPING` to get the field of `myField` in the class `NMSClassReflection`. This is useful for when you want to use a field or method that is not in the already defined mappings.",
+        code: "public class MyMappings {\n\n\tpublic static FieldMapping<Integer, /* First generic is the field type */ NMSClassReflection>\n\t/* Second generic is the related NMS reflection class */ MY_MAPPING = new FieldMapping<>(\"My Mapping\", NMSClassReflection.class, Maps.newHashMap());\n\n\t// Should be run in onEnable method\n\tpublic static void init() {\n\t\t// Add mappings\n\t\tMY_MAPPING.addMapping(new VersionRange(ReflectionApi.v1_14, ReflectionApi.v1_16), \"mappingABC\");\n\t\t// Adds mapping for versions 1.14 (inclusive) to 1.16 (exclusive) with value `mappingABC`\n\t\tMY_MAPPING.addMapping(new VersionRange(ReflectionApi.v1_16, Version.MAX), \"mappingCBA\");\n\t\t// Adds mapping for versions 1.16 (inclusive) to the maximum supported version (currently 1.20) (exclusive) with value `mappingCBA`\n\t}\n}\n\n// Usage\nNMSClassReflection myNMSObj = <blah blah blah>;\ntry {\n\tint i = MyMappings.MY_MAPPING.getField(myNMSObj);\n} catch (MappingsException exc) {\n\texc.printStackTrace();\n}",
+        category: "ReflectionAPI",
+        subCategory: "",
+        tags: ["ReflectionAPI", "Utility"],
     }
 ]
 

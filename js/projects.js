@@ -19,7 +19,7 @@ const projects = {
             id: 2,
             name: "ReflectionAPI",
             description: "A Spigot API to handle reflection and allow for smoother integration of multiple version compatable NMS code. This API includes mappings for classes, packages, fields, and methods, along with NMS object wrappers.",
-            link: "https://github.com/YeetmanLord/ReflectionAPI",
+            link: "https://www.spigotmc.org/resources/reflectionapi.107418/",
             source: "https://github.com/YeetmanLord/ReflectionAPI"
         },
         {
