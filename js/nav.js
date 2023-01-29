@@ -50,25 +50,25 @@ let links = [
                 id: 0, // React requires a unique key for each element in a list
                 hasSubLinks: false,
                 text: "ZetaCore",
-                link: "\/docs/ZetaCore"
+                link: "\/docs/ZetaCore/"
             },
             {
                 id: 1, // React requires a unique key for each element in a list
                 hasSubLinks: false,
                 text: "BedwarsZeta",
-                link: "\/docs/BedwarsZeta"
+                link: "\/docs/BedwarsZeta/"
             },
             {
                 id: 2, // React requires a unique key for each element in a list
                 hasSubLinks: false,
                 text: "ReflectionAPI",
-                link: "\/docs/ReflectionAPI"
+                link: "\/docs/ReflectionAPI/"
             },
             {
                 id: 3, // React requires a unique key for each element in a list
                 hasSubLinks: false,
                 text: "RayCastUtility",
-                link: "\/docs/RayCastUtility"
+                link: "\/docs/RayCastUtility/"
             }
         ]
     },
