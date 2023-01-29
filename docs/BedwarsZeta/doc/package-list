@@ -1,3 +1,4 @@
+com.github.yeetmanlord.bedwars_zeta
 com.github.yeetmanlord.bedwars_zeta.api
 com.github.yeetmanlord.bedwars_zeta.api.api_event_hooks
 com.github.yeetmanlord.bedwars_zeta.api.api_event_hooks.data
@@ -6,6 +7,7 @@ com.github.yeetmanlord.bedwars_zeta.api.api_event_hooks.game.global
 com.github.yeetmanlord.bedwars_zeta.api.api_event_hooks.scoreboard
 com.github.yeetmanlord.bedwars_zeta.api.api_event_hooks.scoreboard.global
 com.github.yeetmanlord.bedwars_zeta.api.api_event_hooks.scoreboard.region
+com.github.yeetmanlord.bedwars_zeta.api.api_event_hooks.stats
 com.github.yeetmanlord.bedwars_zeta.api.bedwars_menus.items
 com.github.yeetmanlord.bedwars_zeta.api.bedwars_menus.items.shop
 com.github.yeetmanlord.bedwars_zeta.api.bedwars_menus.items.shop.example
