@@ -26,7 +26,7 @@ const projects = {
             id: 3,
             name: "ZetaCore",
             description: "Core API for all of my main Spigot plugins. This plugin also acts as a manager for any plugins I create.",
-            link: "https://github.com/YeetmanLord/ZetaCore",
+            link: "https://www.spigotmc.org/resources/%CE%B6etacore.107426/",
             source: "https://github.com/YeetmanLord/ZetaCore"
         },
         {

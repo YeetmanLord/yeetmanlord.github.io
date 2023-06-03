@@ -38,7 +38,21 @@ let links = [
                 text: "RayCastUtility",
                 link: "https://www.spigotmc.org/resources/raycastutility.105956/",
                 outside: true
-            }
+            },
+            {
+                id: 2,
+                hasSubLinks: false,
+                text: "ZetaCore",
+                link: "https://www.spigotmc.org/resources/%CE%B6etacore.107426/",
+                outside: true
+            },
+            {
+                id: 3,
+                hasSubLinks: false,
+                text: "ReflectionAPI",
+                link: "https://www.spigotmc.org/resources/reflectionapi.107418/",
+                outside: true
+            },
         ]
     },
     {
